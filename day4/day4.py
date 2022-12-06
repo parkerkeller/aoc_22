@@ -41,5 +41,5 @@ if __name__ == "__main__":
     with open("./input.txt", "r", encoding="utf-8") as f:
         sections = pair_formatter(f.read().split('\n'))
 
-        # print(day4(sections))
+        print(day4(sections))
         print(day4_pt2(sections))
